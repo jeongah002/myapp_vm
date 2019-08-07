@@ -1,0 +1,89 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'myapp/style.css' %}" />
+<link href="style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vivian Maier</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="headername"><span>In Search of Artist_Vivian Maier</span></div>
+        </header>
+
+        <div id="home">
+            <img src="{% static 'vivian maier love.jpg'%}" class=img-responsive alt="">
+        </div>
+
+            <div id="about">
+                <br>
+                <div class="intro">
+                    <h2 class="display-4">In Search of an Artist Project 1<strong><br>
+                        "<span style=color:white;>Vivian Dorothy Maier</span>"</strong></h2>
+                    <div class="a">
+                        <br>
+                        <p>Birth-Death: February 1, 1926 – April 21, 2009 </p>
+                        <p>Chicago, New York based street photographer</p><br>
+                        <p><strong>비비안 도로시 마이어</strong></p>
+                        <br>
+                        <p>프랑스계 미국인 사진가로 시카고, 뉴욕에서 활동했습니다.</p>
+                        <p>유모 일을 하며 주로 길거리에서 인물 초상 사진을 많이 찍었습니다.</p>
+                        <p>Maloof가 경매에서 구매한 필름들을 인화하며 세상에 알려졌습니다.</p><br>
+                        <img src="{% static 'vivian maier2.jpg'%}" class=img-responsive alt=""><br>
+                        <p>More Photos & Infos</p>
+                        <p><a href= "http://www.vivianmaier.com/" style= color:#58FA82; >Vivian Maier Official Webpage</a></p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div id="container">
+                <br>
+                <h3>Self Portrait</h3>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{% static 'img1.jpg'%}" class=img-responsive alt="">
+                        <br>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{% static 'img2.jpg'%}" class=img-responsive alt="">
+                        <br>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{% static 'img3.jpg'%}" class=img-responsive alt="">
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+        <div id="container">
+                <br>
+                <h3>Portrait</h3>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{% static 'img01.jpg'%}" class=img-responsive alt="">
+                        <br>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{% static 'img02.jpg'%}" class=img-responsive alt="">
+                        <br>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="{% static 'img03.jpg'%}" class=img-responsive alt="">
+                        <br>
+                    </div>
+                </div>
+            </div>
+       
+
+    </body>
+
+    <footer class="foot">All image sources copyright © 2019 Maloof collection, Ltd<br>Webpage by Ja Kim, Likelion Ewha 
+    </footer>
+
+</html>

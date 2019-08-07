@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* HEADER */
+header {
+    top:0;
+    width: 100%;
+    height: 50px;
+    background-color: #58FA82;
+    z-index: 5;
+}
+.headername {
+    color: white;
+    display: inline-block;
+    margin: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+}
+
+
+/* ABOUT */
+
+#about {
+    background-color:black;
+    text-align: center;
+    line-height: 1.4em;
+}
+.intro {
+    background-color: black;
+}
+.display-4 {
+    color: whitesmoke;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.a, .b {
+    color: whitesmoke;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+/* Photos */
+
+#container{
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.img-responsive{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.div{
+    text-align: center;
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 10px
+}
+
+.h3 {
+    text-align: center;
+    color: white;
+
+}
+
+
+ /* FOOTER */
+ .foot{
+    background-color: lightgray;
+    text-align: center;
+ }
+
+
+ @media (min-width:930px) {
+    .explain{
+        width:68%;
+        margin-left:16%;
+        margin-right:16%;
+    }
+}
